@@ -1,0 +1,1 @@
+C'est dans ce répertoire qu'on ajoute les nouvelles Skins (La SDKSkin avec les fichiers WAV est dispo en RAR-SFX à http://www.ifrance.com/fabienpg/SDKSkin.exe).

@@ -1,0 +1,2 @@
+C'est dans ce répertoire que l'on rajoute de nouvelles cartes.
+

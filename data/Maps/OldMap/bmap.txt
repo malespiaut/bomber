@@ -1,0 +1,15 @@
+1                  3
+ xx x xx xx xx x xx 
+    x          x    
+ x xxx x xx x xxx x 
+    x          x    
+ xx x xx xx xx x xx 
+       x xx x       
+xx xxx        xxx xx
+       x xx x       
+ xx x xx xx xx x xx 
+    x          x    
+ x xxx x xx x xxx x 
+    x          x    
+ xx x xx xx xx x xx 
+4                  2

@@ -1,0 +1,1581 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+VS_VERSION_INFO$(LANG_FR) VERSIONINFO
+#else
+VS_VERSION_INFO VERSIONINFO
+#endif
+ FILEVERSION 1,0,2,7
+ PRODUCTVERSION 1,0,2,7
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "Comments", "Bomber Multijoueurs\0"
+            VALUE "CompanyName", "PG\0"
+            VALUE "FileDescription", "Bomber\0"
+            VALUE "FileVersion", "1, 0, 2, 7\0"
+            VALUE "InternalName", "Bomber\0"
+            VALUE "LegalCopyright", "Copyright® 1998-2000 par F.Petitgrand\0"
+            VALUE "LegalTrademarks", " \0"
+            VALUE "OriginalFilename", "Bomber.exe\0"
+            VALUE "PrivateBuild", " \0"
+            VALUE "ProductName", "Bomber par F.Petitgrand (petitgrf@esiee.fr, fabienpg@club-internet.fr)\0"
+            VALUE "ProductVersion", "1, 0, 2, 7\0"
+            VALUE "SpecialBuild", " \0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+VS_VERSION_INFO$(LANG_EN) VERSIONINFO
+#else
+VS_VERSION_INFO VERSIONINFO
+#endif
+ FILEVERSION 1,0,2,7
+ PRODUCTVERSION 1,0,2,7
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "Comments", "Multiplayer Bomber\0"
+            VALUE "CompanyName", "PG\0"
+            VALUE "FileDescription", "Bomber\0"
+            VALUE "FileVersion", "1, 0, 2, 7\0"
+            VALUE "InternalName", "Bomber\0"
+            VALUE "LegalCopyright", "Copyright® 1998-2000 by F.Petitgrand\0"
+            VALUE "LegalTrademarks", " \0"
+            VALUE "OriginalFilename", "Bomber.exe\0"
+            VALUE "PrivateBuild", " \0"
+            VALUE "ProductName", "Bomber by F.Petitgrand (petitgrf@esiee.fr, fabienpg@club-internet.fr)\0"
+            VALUE "ProductVersion", "1, 0, 2, 7\0"
+            VALUE "SpecialBuild", " \0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+#endif
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_MARBLE         ICON    DISCARDABLE     "Marble.ico"
+IDI_ICON_BOMBER         ICON    DISCARDABLE     "Bomber.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_START$(LANG_FR) DIALOG DISCARDABLE  0, 0, 135, 126
+#else
+IDD_START DIALOG DISCARDABLE  0, 0, 135, 126
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_NOIDLEMSG | DS_CENTER | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,14,103,50,14
+    PUSHBUTTON      "Quitter",IDCANCEL,71,103,50,14
+    PUSHBUTTON      "Options",IDB_OPTIONS,14,83,50,14
+    CONTROL         "Créer une partie",IDC_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE,32,40,69,14
+    CONTROL         "Joindre une partie",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE,32,61,69,14
+    PUSHBUTTON      "Scores",IDB_SCORES,71,83,50,14
+    CONTROL         120,IDC_LOGO,"Static",SS_BITMAP | SS_REALSIZEIMAGE,10,5,
+                    107,28
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_NUMPLAYERS$(LANG_FR) DIALOG DISCARDABLE  0, 0, 104, 86
+#else
+IDD_NUMPLAYERS DIALOG DISCARDABLE  0, 0, 104, 86
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Nombre de joueurs"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,5,65,41,14
+    PUSHBUTTON      "Annuler",IDCANCEL,55,65,39,14
+    CONTROL         "2 Joueurs",IDC_TWO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,7,55,15
+    CONTROL         "3 Joueurs",IDC_THREE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,26,55,15
+    CONTROL         "4 Joueurs",IDC_FOUR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,45,55,15
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_PROVIDER$(LANG_FR) DIALOG DISCARDABLE  0, 0, 177, 90
+#else
+IDD_PROVIDER DIALOG DISCARDABLE  0, 0, 177, 90
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Choix de connexion"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,9,72,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,119,72,50,14
+    LISTBOX         IDC_SPCOMBO,7,5,163,54,WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Serveur:",IDC_STATIC,10,60,30,10
+    CONTROL         "Dédié",IDC_RDEDICATED,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,45,60,30,10
+    CONTROL         "Multicast",IDC_RMULTICAST,"Button",BS_AUTORADIOBUTTON,
+                    80,60,40,10
+    CONTROL         "Normal",IDC_RNORMAL,"Button",BS_AUTORADIOBUTTON,125,60,
+                    40,10
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_SESSIONS$(LANG_FR) DIALOG DISCARDABLE  0, 0, 232, 106
+#else
+IDD_SESSIONS DIALOG DISCARDABLE  0, 0, 232, 106
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Choix d'une session"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Joindre",IDOK,5,85,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,175,85,50,14
+    LISTBOX         IDC_SESSIONLIST,7,7,218,58,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Rafraîchir",IDB_REFRESH,90,85,50,14
+    CONTROL         "Joindre en tant que spectateur",IDC_SPECTATOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,70,165,10
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_NOMS$(LANG_FR) DIALOG DISCARDABLE  0, 0, 202, 106
+#else
+IDD_NOMS DIALOG DISCARDABLE  0, 0, 202, 106
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Noms des joueurs"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,49,85,42,15
+    LTEXT           "Joueur 1",IDC_STATIC,10,5,35,8,SS_CENTERIMAGE
+    LTEXT           "Joueur 2",IDC_STATIC,10,20,35,8,SS_CENTERIMAGE
+    LTEXT           "Joueur 3",IDC_STATIC,10,35,35,8,SS_CENTERIMAGE
+    LTEXT           "Joueur 4",IDC_STATIC,10,50,35,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_NOM1,50,5,45,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NOM2,50,20,45,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NOM3,50,35,45,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NOM4,50,50,45,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Annuler",IDCANCEL,109,85,42,15
+    CONTROL         "IA",IDC_IA1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,5,
+                    20,10
+    CONTROL         "IA",IDC_IA2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,
+                    20,20,10
+    CONTROL         "IA",IDC_IA3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,
+                    35,20,10
+    CONTROL         "IA",IDC_IA4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,
+                    50,20,10
+    CONTROL         "Enregistrement les scores",IDC_SAVESCORES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,52,70,96,10
+    LTEXT           "",IDC_TEAM1,125,5,65,10,SS_NOTIFY
+    LTEXT           "",IDC_TEAM2,125,20,65,10,SS_NOTIFY
+    LTEXT           "",IDC_TEAM3,125,35,65,10,SS_NOTIFY
+    LTEXT           "",IDC_TEAM4,125,50,65,10,SS_NOTIFY
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_NAMESESSION$(LANG_FR) DIALOG DISCARDABLE  0, 0, 117, 46
+#else
+IDD_NAMESESSION DIALOG DISCARDABLE  0, 0, 117, 46
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Nom de la Session"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,33,25,50,14
+    EDITTEXT        IDC_SESSIONNAME,7,7,103,12,ES_AUTOHSCROLL
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_OPTIONS$(LANG_FR) DIALOG DISCARDABLE  0, 0, 427, 215
+#else
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 427, 215
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Menu des Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,10,195,50,15
+    PUSHBUTTON      "Annuler",IDCANCEL,70,195,50,15
+    CONTROL         "Utiliser DirectInput",IDC_DINPUT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,5,135,10
+    CONTROL         "Utiliser le protocole DirectPlay",IDC_DPPROTO,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,5,50,135,10
+    CONTROL         "Mode de débogage (En Fenêtre)",IDC_DBGMODE,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,275,35,145,8
+    COMBOBOX        IDC_DEPTH,275,65,149,54,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Mode d'affichage",IDC_STATIC,275,85,120,35
+    CONTROL         "Basculement de page (Flip)",IDC_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON,285,95,100,8
+    CONTROL         "Copie de la surface (Blit)",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,285,105,100,8
+    CONTROL         "Triple Buffer",IDC_TBUFFER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,275,20,146,10
+    CONTROL         "Buffers sons dupliqués",IDC_DUPSBUFF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,275,141,90,10
+    CONTROL         "Sprites en Mémoire Vidéo (si possible)",IDC_SPRVIDEO,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,275,50,146,10
+    PUSHBUTTON      "Messages ...",IDB_TXTMSG,10,155,50,15
+    CONTROL         "Enumération asynchrone des sessions",IDC_ASYNCENUM,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,5,
+                    20,135,10
+    CONTROL         "Enumérer toutes les",IDC_ENUMEVERY,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,5,35,80,8
+    EDITTEXT        IDC_TEVERY,85,30,20,12,ES_NUMBER
+    LTEXT           "ms",IDC_STATIC,115,35,14,10
+    CONTROL         "Son",IDC_ENABLESON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,275,125,30,10
+    CONTROL         "Synchronisation avec le balayage vertical",IDC_VSYNC,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,275,5,146,10
+    PUSHBUTTON      "Reset",IDB_RESET,70,175,50,15
+    PUSHBUTTON      "Contrôles ...",IDB_CONTROLS,70,155,50,15
+    PUSHBUTTON      "Skins ...",IDB_SKINS,10,176,50,15
+    LTEXT           "Volume",IDC_STATIC,275,170,35,10
+    LTEXT           "Luminosité",IDC_BRIGHTLBL,275,185,35,10
+    LTEXT           "Contraste",IDC_CONTRASTLBL,275,201,35,10
+    CONTROL         "Slider1",IDC_VOLSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,315,170,90,10
+    CONTROL         "Slider2",IDC_BRIGHTSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,315,185,90,10
+    CONTROL         "Slider3",IDC_CONTRASTSLIDER,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,315,201,90,10
+    PUSHBUTTON      "Configurations personalisées ...",IDB_CFGMGR,10,115,110,
+                    15
+    CONTROL         "Son Haute Qualité",IDC_HISOUND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,275,154,75,10
+    LTEXT           "Type de connexion :",IDC_STATIC,5,80,110,10
+    COMBOBOX        IDC_NET_TOUT,5,95,125,70,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Règles ...",IDB_GAMEOPT,10,135,50,15
+    GROUPBOX        "Téléchargement autorisé",IDC_STATIC,145,5,110,50
+    CONTROL         "En tant que serveur",IDC_TELSVR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,20,90,10
+    CONTROL         "En tant que client",IDC_TELCLNT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,35,90,10
+    CONTROL         "Charger la skin du serveur",IDC_LOADSKIN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,145,60,100,10
+    LTEXT           "Taille en octets des blocs envoyés lors du transfert de fichier",
+                    IDC_STATIC,151,74,75,25
+    EDITTEXT        IDC_FILE_BLOCK_SIZE,231,80,30,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Afficher le ping régulièrement",IDC_SHOWPING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,145,110,110,10
+    CONTROL         "Autoriser les joueurs spectateurs",IDC_ALLOWSPECTATORS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,145,125,115,10
+    CONTROL         "Migration de l'hôte si déconnexion",IDC_MIGRATEHOST,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,5,
+                    65,135,10
+    PUSHBUTTON      "Cartes ...",IDB_MAPSELECT,70,135,50,15
+    LTEXT           "Changer aléatoirement de carte",IDC_STATIC,145,140,100,
+                    10
+    LTEXT           "toutes les",IDC_STATIC,145,150,30,10
+    EDITTEXT        IDC_MAPDELAY,181,150,15,10,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "parties",IDC_STATIC,201,150,50,10
+    CONTROL         "Bombes de la couleur de l'équipe",IDC_BOMBTCOLOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,145,165,120,10
+    CONTROL         "Joueurs de la couleur de l'équipe",IDC_PLAYERTCOLOR,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,145,180,119,10
+    PUSHBUTTON      "Visitez le site Web !",IDB_WEBSITE,161,195,90,15
+    CONTROL         """Voice Over Data""",IDC_VOICE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,315,125,80,10
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_TXTMSG$(LANG_FR) DIALOG DISCARDABLE  0, 0, 277, 103
+#else
+IDD_TXTMSG DIALOG DISCARDABLE  0, 0, 277, 103
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Message Multijoueurs"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,50,82,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,176,82,50,14
+    LTEXT           "Message F1 :",IDC_STATIC,7,7,44,8
+    LTEXT           "Message F2 :",IDC_STATIC,7,24,44,8
+    LTEXT           "Message F3 :",IDC_STATIC,7,41,44,8
+    LTEXT           "Message F4 :",IDC_STATIC,7,58,44,8
+    EDITTEXT        IDC_F1TXT,60,7,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F2TXT,60,24,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F3TXT,60,41,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F4TXT,60,58,75,12,ES_AUTOHSCROLL
+    LTEXT           "Message F5 :",IDC_STATIC,142,7,44,8
+    LTEXT           "Message F6 :",IDC_STATIC,142,24,44,8
+    LTEXT           "Message F7 :",IDC_STATIC,142,41,44,8
+    LTEXT           "Message F8 :",IDC_STATIC,142,58,44,8
+    EDITTEXT        IDC_F5TXT,195,7,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F6TXT,195,24,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F7TXT,195,41,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F8TXT,195,58,75,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Reset",IDB_RESETTM,113,82,50,14
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_CONTROLS$(LANG_FR) DIALOG DISCARDABLE  0, 0, 267, 117
+#else
+IDD_CONTROLS DIALOG DISCARDABLE  0, 0, 267, 117
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Configuration des contrôles"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,55,95,45,15
+    PUSHBUTTON      "Annuler",IDCANCEL,165,95,45,15
+    PUSHBUTTON      "Reset",IDB_RESETCTRL,110,95,45,15
+    GROUPBOX        "Contrôles",IDC_STATIC,5,5,55,75
+    CONTROL         "Joueur 1",IDC_CTRL1,"Button",BS_AUTORADIOBUTTON,10,20,
+                    45,10
+    CONTROL         "Joueur 2",IDC_CTRL2,"Button",BS_AUTORADIOBUTTON,10,35,
+                    45,10
+    CONTROL         "Joueur 3",IDC_CTRL3,"Button",BS_AUTORADIOBUTTON,10,50,
+                    45,10
+    CONTROL         "Joueur 4",IDC_CTRL4,"Button",BS_AUTORADIOBUTTON,10,65,
+                    45,10
+    PUSHBUTTON      "Haut",IDB_UP,70,10,30,15
+    PUSHBUTTON      "Bas",IDB_DOWN,70,30,30,15
+    PUSHBUTTON      "Gauche",IDB_LEFT,70,50,30,15
+    PUSHBUTTON      "Droite",IDB_RIGHT,70,70,30,15
+    PUSHBUTTON      "Tir 1",IDB_FIRE1,165,10,30,15
+    PUSHBUTTON      "Tir 2",IDB_FIRE2,165,30,30,15
+    PUSHBUTTON      "Tir 3",IDB_FIRE3,165,50,30,15
+    LTEXT           "",IDC_UPLBL,105,15,50,8
+    LTEXT           "",IDC_DOWNLBL,105,35,50,8
+    LTEXT           "",IDC_LEFTLBL,105,55,50,8
+    LTEXT           "",IDC_RIGHTLBL,105,75,50,8
+    LTEXT           "",IDC_FIRE1LBL,201,15,50,8
+    LTEXT           "",IDC_FIRE2LBL,201,35,50,8
+    LTEXT           "",IDC_FIRE3LBL,201,55,50,8
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_WAITSESSION$(LANG_FR) DIALOG DISCARDABLE  0, 0, 186, 31
+#else
+IDD_WAITSESSION DIALOG DISCARDABLE  0, 0, 186, 31
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Mode Multijoueurs"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Veuillez patienter SVP car la partie que vous voulez rejoindre est en cours de réinitialisation ...",
+                    IDC_STATIC,7,7,172,17
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_PRESSKEY$(LANG_FR) DIALOG DISCARDABLE  0, 0, 147, 31
+#else
+IDD_PRESSKEY DIALOG DISCARDABLE  0, 0, 147, 31
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Configuration des contrôles"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Appuyez sur une touche ...",IDC_STATIC,0,0,145,30,
+                    SS_CENTERIMAGE
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_SKINS$(LANG_FR) DIALOG DISCARDABLE  0, 0, 101, 145
+#else
+IDD_SKINS DIALOG DISCARDABLE  0, 0, 101, 145
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Sélection de la Skin"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,5,125,40,14
+    LISTBOX         IDC_SKINLIST,7,7,87,109,NOT LBS_NOTIFY | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Annuler",IDCANCEL,55,125,40,14
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_CONFIGS$(LANG_FR) DIALOG DISCARDABLE  0, 0, 101, 161
+#else
+IDD_CONFIGS DIALOG DISCARDABLE  0, 0, 101, 161
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Configurations"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,5,143,40,14
+    PUSHBUTTON      "Annuler",IDCANCEL,52,143,40,14
+    LISTBOX         IDC_CFGLIST,7,7,87,109,NOT LBS_NOTIFY | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Supprimer",IDB_DELCFG,52,125,40,14
+    PUSHBUTTON      "Ajouter ...",IDB_NEWCFG,5,125,40,14
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_CFGNAME$(LANG_FR) DIALOG DISCARDABLE  0, 0, 117, 47
+#else
+IDD_CFGNAME DIALOG DISCARDABLE  0, 0, 117, 47
+#endif
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Nom de la configuration:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,33,26,50,14
+    EDITTEXT        IDC_CFGNAME,7,7,103,12,ES_AUTOHSCROLL
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_GAMEOPT$(LANG_FR) DIALOG DISCARDABLE  0, 0, 402, 196
+#else
+IDD_GAMEOPT DIALOG DISCARDABLE  0, 0, 402, 196
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Rèles de jeu"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,105,175,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,225,175,50,14
+    RTEXT           "Pas de bonus",IDC_STATIC,10,20,60,10
+    EDITTEXT        IDC_BONUS0,75,20,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Portée +1",IDC_STATIC,10,36,60,10
+    EDITTEXT        IDC_BONUS3,75,36,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "+1 Bombe",IDC_STATIC,10,50,60,10
+    EDITTEXT        IDC_BONUS4,75,50,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Méga-Bombe",IDC_STATIC,10,65,60,10
+    EDITTEXT        IDC_BONUS5,75,65,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Mèches courtes",IDC_STATIC,10,81,60,10
+    EDITTEXT        IDC_BONUS6,75,81,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Mèches normales",IDC_STATIC,10,95,60,10
+    EDITTEXT        IDC_BONUS7,75,95,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Mèches longues",IDC_STATIC,10,111,60,10
+    EDITTEXT        IDC_BONUS8,75,111,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Fausses bombes",IDC_STATIC,10,126,60,10
+    EDITTEXT        IDC_BONUS9,75,126,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Détonateur",IDC_STATIC,10,140,60,10
+    EDITTEXT        IDC_BONUS10,75,140,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Bombe atomique",IDC_STATIC,10,156,60,10
+    EDITTEXT        IDC_BONUS11,75,156,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Tout exploser",IDC_STATIC,110,20,60,10
+    EDITTEXT        IDC_BONUS12,175,20,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Téléportation",IDC_STATIC,110,36,60,10
+    EDITTEXT        IDC_BONUS14,175,36,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "+1 Mine",IDC_STATIC,110,50,60,10
+    EDITTEXT        IDC_BONUS15,175,50,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Inversion touches",IDC_STATIC,110,65,60,10
+    EDITTEXT        IDC_BONUS16,175,65,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Nombre maximum de bombes",IDC_STATIC,305,20,60,20
+    EDITTEXT        IDC_SIMULBOMB,371,20,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Pourcentage de caisses",IDC_STATIC,305,47,60,20
+    EDITTEXT        IDC_BLOC_COND,371,47,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Nombre initial de bombes",IDC_STATIC,305,71,60,20
+    EDITTEXT        IDC_NBBOMB,371,71,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Puissance initiale des bombes",IDC_STATIC,210,20,60,20
+    EDITTEXT        IDC_NBBLAST,275,20,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Reset",IDB_RESETGO,165,175,50,14
+    RTEXT           "Nombre initial de mines",IDC_STATIC,210,46,60,20
+    EDITTEXT        IDC_NBMINE,275,46,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Nombre de points par victime",IDC_STATIC,210,71,60,20
+    EDITTEXT        IDC_MORTPNT,275,71,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Nombre de points perdus par suicide",IDC_STATIC,210,95,
+                    60,20
+    EDITTEXT        IDC_AKPNT,275,95,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_RETNUCL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,110,
+                    127,8,8
+    CTEXT           "Supprimer le détonateur en mode Sudden Death",
+                    IDC_STATIC,120,120,80,20
+    CONTROL         "",IDC_DISPRETNUCL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    110,102,8,8
+    CTEXT           "Pas de bonus détonateur en mode Sudden Death",
+                    IDC_STATIC,120,95,80,20
+    RTEXT           "Durée d'inversion des touches",IDC_STATIC,210,121,60,20
+    EDITTEXT        IDC_REV_TOUT,275,121,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Durée des mèches longues/courtes",IDC_STATIC,210,145,60,
+                    20
+    EDITTEXT        IDC_MCH_TOUT,275,145,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_CANREV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,110,
+                    152,8,8
+    CTEXT           "Mèches normales annulant l'inversion des touches",
+                    IDC_STATIC,120,145,85,20
+    CTEXT           "Répartition des bonus",IDC_STATIC,10,5,190,10
+    CTEXT           "Options générales",IDC_STATIC,215,5,180,10
+    CTEXT           "Règles du jeu",IDC_STATIC,110,80,90,10
+    RTEXT           "Durée avant Sudden Death",IDC_STATIC,305,95,60,20
+    EDITTEXT        IDC_SDDEATH_TOUT,371,95,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Niveau des joueurs IA :",IDC_STATIC,320,120,75,8
+    COMBOBOX        IDC_BOTLEVEL,320,130,75,55,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_NUMLOCALPLAYERS$(LANG_FR) DIALOG DISCARDABLE  0, 0, 104, 92
+#else
+IDD_NUMLOCALPLAYERS DIALOG DISCARDABLE  0, 0, 104, 92
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Nombre de joueurs locaux"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,71,41,14
+    PUSHBUTTON      "Annuler",IDCANCEL,58,71,39,14
+    CONTROL         "2 Joueurs",IDC_TWOLOCAL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,27,55,15
+    CONTROL         "3 Joueurs",IDC_THREELOCAL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,47,55,15
+    CONTROL         "1 Joueur",IDC_ONELOCAL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,7,55,15
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_MAPS$(LANG_FR) DIALOGEX 0, 0, 102, 197
+#else
+IDD_MAPS DIALOGEX 0, 0, 102, 197
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Sélection de la Carte"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,5,176,40,14
+    LISTBOX         IDC_MAPLIST,5,7,90,109,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Annuler",IDCANCEL,55,176,40,14
+    CONTROL         "",IDC_MAPPREVIEW,"Static",SS_BLACKFRAME,20,124,61,44,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_WAITSESSION$(LANG_EN) DIALOG DISCARDABLE  0, 0, 186, 31
+#else
+IDD_WAITSESSION DIALOG DISCARDABLE  0, 0, 186, 31
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Multiplayer mode"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Please wait while the session you want to join is reseting ...",
+                    IDC_STATIC,7,7,172,17
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_TXTMSG$(LANG_EN) DIALOG DISCARDABLE  0, 0, 277, 103
+#else
+IDD_TXTMSG DIALOG DISCARDABLE  0, 0, 277, 103
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Multiplayers messages"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,50,82,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,176,82,50,14
+    LTEXT           "F1 Message :",IDC_STATIC,7,7,44,8
+    LTEXT           "F2 Message :",IDC_STATIC,7,24,44,8
+    LTEXT           "F3 Message :",IDC_STATIC,7,41,44,8
+    LTEXT           "F4 Message :",IDC_STATIC,7,58,44,8
+    EDITTEXT        IDC_F1TXT,60,7,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F2TXT,60,24,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F3TXT,60,41,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F4TXT,60,58,75,12,ES_AUTOHSCROLL
+    LTEXT           "F5 Message :",IDC_STATIC,142,7,44,8
+    LTEXT           "F6 Message :",IDC_STATIC,142,24,44,8
+    LTEXT           "F7 Message :",IDC_STATIC,142,41,44,8
+    LTEXT           "F8 Message :",IDC_STATIC,142,58,44,8
+    EDITTEXT        IDC_F5TXT,195,7,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F6TXT,195,24,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F7TXT,195,41,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_F8TXT,195,58,75,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Reset",IDB_RESETTM,113,82,50,14
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_SKINS$(LANG_EN) DIALOG DISCARDABLE  0, 0, 101, 145
+#else
+IDD_SKINS DIALOG DISCARDABLE  0, 0, 101, 145
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Skin selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,5,125,40,14
+    LISTBOX         IDC_SKINLIST,7,7,87,109,NOT LBS_NOTIFY | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDCANCEL,55,125,40,14
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_SESSIONS$(LANG_EN) DIALOG DISCARDABLE  0, 0, 232, 106
+#else
+IDD_SESSIONS DIALOG DISCARDABLE  0, 0, 232, 106
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Session selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Join",IDOK,5,85,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,175,85,50,14
+    LISTBOX         IDC_SESSIONLIST,7,7,218,58,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Refresh",IDB_REFRESH,90,85,50,14
+    CONTROL         "Join as spectator",IDC_SPECTATOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,70,165,10
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_PROVIDER$(LANG_EN) DIALOG DISCARDABLE  0, 0, 177, 90
+#else
+IDD_PROVIDER DIALOG DISCARDABLE  0, 0, 177, 90
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Connection selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,9,72,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,119,72,50,14
+    LISTBOX         IDC_SPCOMBO,7,5,163,54,WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Server:",IDC_STATIC,5,60,25,10
+    CONTROL         "Dedicated",IDC_RDEDICATED,"Button",BS_AUTORADIOBUTTON,
+                    35,60,45,10
+    CONTROL         "Multicast",IDC_RMULTICAST,"Button",BS_AUTORADIOBUTTON,
+                    85,60,40,10
+    CONTROL         "Normal",IDC_RNORMAL,"Button",BS_AUTORADIOBUTTON,130,60,
+                    40,10
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_PRESSKEY$(LANG_EN) DIALOG DISCARDABLE  0, 0, 147, 31
+#else
+IDD_PRESSKEY DIALOG DISCARDABLE  0, 0, 147, 31
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Controls configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Press a key ...",IDC_STATIC,0,0,145,30,SS_CENTERIMAGE
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_OPTIONS$(LANG_EN) DIALOG DISCARDABLE  0, 0, 427, 215
+#else
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 427, 215
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Options menu"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,10,195,50,15
+    PUSHBUTTON      "Cancel",IDCANCEL,70,195,50,15
+    CONTROL         "Use DirectInput",IDC_DINPUT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,5,5,135,10
+    CONTROL         "Use DirectPlay protocol",IDC_DPPROTO,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,5,50,135,10
+    CONTROL         "Debugging mode (Windowed)",IDC_DBGMODE,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,275,35,145,8
+    COMBOBOX        IDC_DEPTH,275,65,149,54,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Refresh method",IDC_STATIC,275,85,120,35
+    CONTROL         "Page flipping",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,
+                    285,95,100,8
+    CONTROL         "Surface blitting",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,285,105,100,8
+    CONTROL         "Triple Buffer",IDC_TBUFFER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,275,20,146,10
+    CONTROL         "Duplicate sound buffers",IDC_DUPSBUFF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,275,141,95,10
+    CONTROL         "Sprites in Video Memory (if possible)",IDC_SPRVIDEO,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,275,50,146,10
+    PUSHBUTTON      "Messages ...",IDB_TXTMSG,10,155,50,15
+    CONTROL         "Asynchronous session enumeration",IDC_ASYNCENUM,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,5,20,135,10
+    CONTROL         "Enumerate every",IDC_ENUMEVERY,"Button",BS_AUTOCHECKBOX | 
+                    BS_MULTILINE | WS_TABSTOP,5,35,80,8
+    EDITTEXT        IDC_TEVERY,85,30,20,12,ES_NUMBER
+    LTEXT           "ms",IDC_STATIC,115,35,14,10
+    CONTROL         "Sound",IDC_ENABLESON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,275,125,36,10
+    CONTROL         "Synchronize with vertical blank",IDC_VSYNC,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,275,5,146,10
+    PUSHBUTTON      "Reset",IDB_RESET,70,175,50,15
+    PUSHBUTTON      "Controls ...",IDB_CONTROLS,70,155,50,15
+    PUSHBUTTON      "Skins ...",IDB_SKINS,10,176,50,15
+    LTEXT           "Volume",IDC_STATIC,275,170,35,10
+    LTEXT           "Brightness",IDC_BRIGHTLBL,275,185,35,10
+    LTEXT           "Contrast",IDC_CONTRASTLBL,275,201,35,10
+    CONTROL         "Slider1",IDC_VOLSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,315,170,90,10
+    CONTROL         "Slider2",IDC_BRIGHTSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,315,185,90,10
+    CONTROL         "Slider3",IDC_CONTRASTSLIDER,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,315,201,90,10
+    PUSHBUTTON      "Custom configurations ...",IDB_CFGMGR,10,115,110,15
+    CONTROL         "High quality sound",IDC_HISOUND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,275,154,75,10
+    LTEXT           "Connection type :",IDC_STATIC,5,80,110,10
+    COMBOBOX        IDC_NET_TOUT,5,95,125,70,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Rules ...",IDB_GAMEOPT,10,135,50,15
+    GROUPBOX        "Download is",IDC_STATIC,145,5,110,50
+    CONTROL         "Authorized when server",IDC_TELSVR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,20,90,10
+    CONTROL         "Authorized when client",IDC_TELCLNT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,35,90,10
+    CONTROL         "Load server skin",IDC_LOADSKIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,145,60,100,10
+    LTEXT           "Block size in bytes when transferring files",IDC_STATIC,
+                    151,80,75,20
+    EDITTEXT        IDC_FILE_BLOCK_SIZE,231,80,30,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Show ping time to time",IDC_SHOWPING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,145,110,110,10
+    CONTROL         "Authorize spectator players",IDC_ALLOWSPECTATORS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,145,125,115,10
+    CONTROL         "Host migration on deconnection",IDC_MIGRATEHOST,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,5,65,135,10
+    PUSHBUTTON      "Maps ...",IDB_MAPSELECT,70,135,50,15
+    LTEXT           "Randomly change map",IDC_STATIC,145,140,100,10
+    LTEXT           "every",IDC_STATIC,145,150,30,10
+    EDITTEXT        IDC_MAPDELAY,181,150,15,10,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "games app.",IDC_STATIC,201,150,50,10
+    CONTROL         "Bombs of the team color",IDC_BOMBTCOLOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,145,165,92,10
+    CONTROL         "Players of the team color",IDC_PLAYERTCOLOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,145,180,93,10
+    PUSHBUTTON      "Visit the Web site !",IDB_WEBSITE,161,195,90,15
+    CONTROL         """Voice Over Data""",IDC_VOICE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,315,125,80,10
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_NUMPLAYERS$(LANG_EN) DIALOG DISCARDABLE  0, 0, 104, 86
+#else
+IDD_NUMPLAYERS DIALOG DISCARDABLE  0, 0, 104, 86
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Players number"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,5,65,41,14
+    PUSHBUTTON      "Cancel",IDCANCEL,55,65,39,14
+    CONTROL         "2 Players",IDC_TWO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,7,55,15
+    CONTROL         "3 Players",IDC_THREE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,26,55,15
+    CONTROL         "4 Players",IDC_FOUR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,45,55,15
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_NUMLOCALPLAYERS$(LANG_EN) DIALOG DISCARDABLE  0, 0, 104, 92
+#else
+IDD_NUMLOCALPLAYERS DIALOG DISCARDABLE  0, 0, 104, 92
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Local players number"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,71,41,14
+    PUSHBUTTON      "Cancel",IDCANCEL,58,71,39,14
+    CONTROL         "2 Players",IDC_TWOLOCAL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,27,55,15
+    CONTROL         "3 Players",IDC_THREELOCAL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,47,55,15
+    CONTROL         "1 Player",IDC_ONELOCAL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,7,55,15
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_NOMS$(LANG_EN) DIALOG DISCARDABLE  0, 0, 202, 106
+#else
+IDD_NOMS DIALOG DISCARDABLE  0, 0, 202, 106
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Players' names"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,49,85,42,15
+    LTEXT           "Player 1",IDC_STATIC,10,5,35,8,SS_CENTERIMAGE
+    LTEXT           "Player 2",IDC_STATIC,10,20,35,8,SS_CENTERIMAGE
+    LTEXT           "Player 3",IDC_STATIC,10,35,35,8,SS_CENTERIMAGE
+    LTEXT           "Player 4",IDC_STATIC,10,50,35,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_NOM1,50,5,45,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NOM2,50,20,45,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NOM3,50,35,45,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NOM4,50,50,45,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cancel",IDCANCEL,109,85,42,15
+    CONTROL         "AI",IDC_IA1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,5,
+                    20,10
+    CONTROL         "AI",IDC_IA2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,
+                    20,20,10
+    CONTROL         "AI",IDC_IA3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,
+                    35,20,10
+    CONTROL         "AI",IDC_IA4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,
+                    50,20,10
+    CONTROL         "Score saving",IDC_SAVESCORES,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,52,70,57,10
+    LTEXT           "",IDC_TEAM1,125,5,65,10,SS_NOTIFY
+    LTEXT           "",IDC_TEAM2,125,20,65,10,SS_NOTIFY
+    LTEXT           "",IDC_TEAM3,125,35,65,10,SS_NOTIFY
+    LTEXT           "",IDC_TEAM4,125,50,65,10,SS_NOTIFY
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_NAMESESSION$(LANG_EN) DIALOG DISCARDABLE  0, 0, 117, 46
+#else
+IDD_NAMESESSION DIALOG DISCARDABLE  0, 0, 117, 46
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Session's name"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,33,25,50,14
+    EDITTEXT        IDC_SESSIONNAME,7,7,103,12,ES_AUTOHSCROLL
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_MAPS$(LANG_EN) DIALOGEX 0, 0, 102, 197
+#else
+IDD_MAPS DIALOGEX 0, 0, 102, 197
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Map selection"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,5,176,40,14
+    LISTBOX         IDC_MAPLIST,5,7,90,109,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDCANCEL,55,176,40,14
+    CONTROL         "",IDC_MAPPREVIEW,"Static",SS_BLACKFRAME,20,124,61,44,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_GAMEOPT$(LANG_EN) DIALOG DISCARDABLE  0, 0, 402, 196
+#else
+IDD_GAMEOPT DIALOG DISCARDABLE  0, 0, 402, 196
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Game rules"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,105,175,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,225,175,50,14
+    RTEXT           "No bonus",IDC_STATIC,10,20,60,10
+    EDITTEXT        IDC_BONUS0,75,20,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Stenght +1",IDC_STATIC,10,36,60,10
+    EDITTEXT        IDC_BONUS3,75,36,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "+1 Bomb",IDC_STATIC,10,50,60,10
+    EDITTEXT        IDC_BONUS4,75,50,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Méga-Bomb",IDC_STATIC,10,65,60,10
+    EDITTEXT        IDC_BONUS5,75,65,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Short tails",IDC_STATIC,10,81,60,10
+    EDITTEXT        IDC_BONUS6,75,81,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Standards tails",IDC_STATIC,10,95,60,10
+    EDITTEXT        IDC_BONUS7,75,95,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Long tails",IDC_STATIC,10,111,60,10
+    EDITTEXT        IDC_BONUS8,75,111,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Joke bombs",IDC_STATIC,10,126,60,10
+    EDITTEXT        IDC_BONUS9,75,126,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Remote control",IDC_STATIC,10,140,60,10
+    EDITTEXT        IDC_BONUS10,75,140,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Bombe atomique",IDC_STATIC,10,156,60,10
+    EDITTEXT        IDC_BONUS11,75,156,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "All explode",IDC_STATIC,110,20,60,10
+    EDITTEXT        IDC_BONUS12,175,20,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Teleport",IDC_STATIC,110,36,60,10
+    EDITTEXT        IDC_BONUS14,175,36,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "+1 Mine",IDC_STATIC,110,50,60,10
+    EDITTEXT        IDC_BONUS15,175,50,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Revrsed keys",IDC_STATIC,110,65,60,10
+    EDITTEXT        IDC_BONUS16,175,65,25,10,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Maximum bomb number",IDC_STATIC,305,20,60,20
+    EDITTEXT        IDC_SIMULBOMB,371,20,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Crates proprtion",IDC_STATIC,305,47,60,20
+    EDITTEXT        IDC_BLOC_COND,371,47,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Initial number of mines",IDC_STATIC,305,71,60,20
+    EDITTEXT        IDC_NBBOMB,371,71,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Initial bombs strenght",IDC_STATIC,210,20,60,20
+    EDITTEXT        IDC_NBBLAST,275,20,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Reset",IDB_RESETGO,165,175,50,14
+    RTEXT           "Initial mine number",IDC_STATIC,210,46,60,20
+    EDITTEXT        IDC_NBMINE,275,46,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Number of points by victim",IDC_STATIC,210,71,60,20
+    EDITTEXT        IDC_MORTPNT,275,71,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Number of lost points by autokill",IDC_STATIC,210,95,60,
+                    20
+    EDITTEXT        IDC_AKPNT,275,95,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_RETNUCL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,110,
+                    127,8,8
+    CTEXT           "Remove remote control in Sudden Death mode",IDC_STATIC,
+                    120,120,80,20
+    CONTROL         "",IDC_DISPRETNUCL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    110,102,8,8
+    CTEXT           "No remote control bonus in Sudden Death mode",
+                    IDC_STATIC,120,95,80,20
+    RTEXT           "Reversed keys duration",IDC_STATIC,210,121,60,20
+    EDITTEXT        IDC_REV_TOUT,275,121,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Short/Long tails duration",IDC_STATIC,210,145,60,20
+    EDITTEXT        IDC_MCH_TOUT,275,145,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_CANREV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,110,
+                    152,8,8
+    CTEXT           "Standards tails gives back non-reversed keys",
+                    IDC_STATIC,120,145,85,20
+    CTEXT           "Bonus repartition",IDC_STATIC,10,5,190,10
+    CTEXT           "General options",IDC_STATIC,215,5,180,10
+    CTEXT           "Game rules",IDC_STATIC,110,80,90,10
+    RTEXT           "Time before Sudden Death",IDC_STATIC,305,95,60,20
+    EDITTEXT        IDC_SDDEATH_TOUT,371,95,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "AI players strenght :",IDC_STATIC,320,120,75,8
+    COMBOBOX        IDC_BOTLEVEL,320,130,75,55,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_CONTROLS$(LANG_EN) DIALOG DISCARDABLE  0, 0, 267, 117
+#else
+IDD_CONTROLS DIALOG DISCARDABLE  0, 0, 267, 117
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Controls configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,55,95,45,15
+    PUSHBUTTON      "Cancel",IDCANCEL,165,95,45,15
+    PUSHBUTTON      "Reset",IDB_RESETCTRL,110,95,45,15
+    GROUPBOX        "Controls",IDC_STATIC,5,5,55,75
+    CONTROL         "Player 1",IDC_CTRL1,"Button",BS_AUTORADIOBUTTON,10,20,
+                    45,10
+    CONTROL         "Player 2",IDC_CTRL2,"Button",BS_AUTORADIOBUTTON,10,35,
+                    45,10
+    CONTROL         "Player 3",IDC_CTRL3,"Button",BS_AUTORADIOBUTTON,10,50,
+                    45,10
+    CONTROL         "Player 4",IDC_CTRL4,"Button",BS_AUTORADIOBUTTON,10,65,
+                    45,10
+    PUSHBUTTON      "Up",IDB_UP,70,10,30,15
+    PUSHBUTTON      "Down",IDB_DOWN,70,30,30,15
+    PUSHBUTTON      "Left",IDB_LEFT,70,50,30,15
+    PUSHBUTTON      "Right",IDB_RIGHT,70,70,30,15
+    PUSHBUTTON      "Fire 1",IDB_FIRE1,165,10,30,15
+    PUSHBUTTON      "Fire 2",IDB_FIRE2,165,30,30,15
+    PUSHBUTTON      "Fire 3",IDB_FIRE3,165,50,30,15
+    LTEXT           "",IDC_UPLBL,105,15,50,8
+    LTEXT           "",IDC_DOWNLBL,105,35,50,8
+    LTEXT           "",IDC_LEFTLBL,105,55,50,8
+    LTEXT           "",IDC_RIGHTLBL,105,75,50,8
+    LTEXT           "",IDC_FIRE1LBL,201,15,50,8
+    LTEXT           "",IDC_FIRE2LBL,201,35,50,8
+    LTEXT           "",IDC_FIRE3LBL,201,55,50,8
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_CONFIGS$(LANG_EN) DIALOG DISCARDABLE  0, 0, 101, 161
+#else
+IDD_CONFIGS DIALOG DISCARDABLE  0, 0, 101, 161
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Configurations"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,5,143,40,14
+    PUSHBUTTON      "Cancel",IDCANCEL,52,143,40,14
+    LISTBOX         IDC_CFGLIST,7,7,87,109,NOT LBS_NOTIFY | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Remove",IDB_DELCFG,52,125,40,14
+    PUSHBUTTON      "Add ...",IDB_NEWCFG,5,125,40,14
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_CFGNAME$(LANG_EN) DIALOG DISCARDABLE  0, 0, 117, 47
+#else
+IDD_CFGNAME DIALOG DISCARDABLE  0, 0, 117, 47
+#endif
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configuration name:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,33,26,50,14
+    EDITTEXT        IDC_CFGNAME,7,7,103,12,ES_AUTOHSCROLL
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_START$(LANG_EN) DIALOGEX 0, 0, 135, 126
+#else
+IDD_START DIALOGEX 0, 0, 135, 126
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_NOIDLEMSG | DS_NOFAILCREATE | 
+    DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,14,103,50,14
+    PUSHBUTTON      "Quit",IDCANCEL,71,103,50,14
+    PUSHBUTTON      "Options",IDB_OPTIONS,14,83,50,14
+    CONTROL         "Create a game",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,32,40,69,14
+    CONTROL         "Join a game",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,32,61,69,14
+    PUSHBUTTON      "Scores",IDB_SCORES,71,83,50,14
+    CONTROL         120,IDC_LOGO,"Static",SS_BITMAP | SS_REALSIZEIMAGE,10,5,
+                    107,28,WS_EX_TRANSPARENT
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_FR)
+#if defined(APSTUDIO_INVOKED)
+IDD_WAITSPLAYING$(LANG_FR) DIALOGEX 0, 0, 186, 31
+#else
+IDD_WAITSPLAYING DIALOGEX 0, 0, 186, 31
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_NOIDLEMSG | DS_SETFOREGROUND | 
+    DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_NOPARENTNOTIFY
+CAPTION "Mode Multijoueurs"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "Veuillez patienter SVP pendant que la partie en cours se termine ...",
+                    IDC_STATIC,5,5,172,17
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(LANG_EN)
+#if defined(APSTUDIO_INVOKED)
+IDD_WAITSPLAYING$(LANG_EN) DIALOGEX 0, 0, 186, 31
+#else
+IDD_WAITSPLAYING DIALOGEX 0, 0, 186, 31
+#endif
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_NOIDLEMSG | DS_SETFOREGROUND | 
+    DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_NOPARENTNOTIFY
+CAPTION "Multiplayer mode"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "Please wait until the game in progress ends ...",
+                    IDC_STATIC,5,5,172,17
+END
+#endif
+
+IDD_CONSOLE DIALOG DISCARDABLE  0, 0, 207, 141
+STYLE DS_ABSALIGN | DS_NOIDLEMSG | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_CONOUT,0,0,205,125,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    EDITTEXT        IDC_CONIN,0,125,205,15,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "IDD_START$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 128
+        BOTTOMMARGIN, 119
+    END
+
+    "IDD_NUMPLAYERS$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 97
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    "IDD_PROVIDER$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 86
+    END
+
+    "IDD_SESSIONS$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+
+    "IDD_NOMS$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+
+    "IDD_NAMESESSION$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 110
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    "IDD_OPTIONS$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 420
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    "IDD_TXTMSG$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    "IDD_CONTROLS$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    "IDD_WAITSESSION$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 24
+    END
+
+    "IDD_PRESSKEY$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 140
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 24
+    END
+
+    "IDD_SKINS$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 94
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    "IDD_CONFIGS$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 94
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    "IDD_CFGNAME$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 110
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    "IDD_GAMEOPT$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 395
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    "IDD_NUMLOCALPLAYERS$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 97
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    "IDD_MAPS$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 95
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+
+    "IDD_WAITSESSION$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 24
+    END
+
+    "IDD_TXTMSG$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    "IDD_SKINS$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 94
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    "IDD_SESSIONS$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+
+    "IDD_PROVIDER$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 86
+    END
+
+    "IDD_PRESSKEY$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 140
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 24
+    END
+
+    "IDD_OPTIONS$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 420
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    "IDD_NUMPLAYERS$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 97
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    "IDD_NUMLOCALPLAYERS$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 97
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    "IDD_NOMS$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+
+    "IDD_NAMESESSION$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 110
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    "IDD_MAPS$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 95
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+
+    "IDD_GAMEOPT$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 395
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    "IDD_CONTROLS$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    "IDD_CONFIGS$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 94
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    "IDD_CFGNAME$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 110
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    "IDD_START$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 128
+        BOTTOMMARGIN, 119
+    END
+
+    "IDD_WAITSPLAYING$(LANG_FR)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 24
+    END
+
+    "IDD_WAITSPLAYING$(LANG_EN)", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 24
+    END
+
+    IDD_CONSOLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDBMP_LOGO              BITMAP  DISCARDABLE     "logo.bmp"
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
