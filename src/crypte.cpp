@@ -1,6 +1,6 @@
-#include "General.h"
-#include "Crypte.h"
-#include "Aleat.h"
+#include "general.h"
+#include "crypte.h"
+#include "aleat.h"
 
 const char szCryptKey[17]="BombSCRCryptKey!";
 

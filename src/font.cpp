@@ -1,5 +1,5 @@
-#include "General.h"
-#include "Font.h"
+#include "general.h"
+#include "font.h"
 
 HFONT font[MAX_FONTS];
 int NumFonts;

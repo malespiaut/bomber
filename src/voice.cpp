@@ -1,12 +1,12 @@
-#include "General.h"
+#include "general.h"
 #include <mmsystem.h>
 #include <dsound.h>
-#include "Bomber.h"
-#include "Debug.h"
-#include "Son.h"
-#include "Multi.h"
-#include "Voice.h"
-#include "VoiceStack.h"
+#include "bomber.h"
+#include "debug.h"
+#include "son.h"
+#include "multi.h"
+#include "voice.h"
+#include "voicestack.h"
 
 LPDIRECTSOUNDCAPTURE lpDSC;
 LPDIRECTSOUNDCAPTUREBUFFER lpDSCB;

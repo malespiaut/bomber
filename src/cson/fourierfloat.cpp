@@ -4,7 +4,7 @@
 #pragma warning( disable : 4725 )//Bug Pentium
 //#pragma warning( disable : 4201 )
 //#include <stdio.h>
-#include "WhatFFT.h"
+#include "whatfft.h"
 
 #ifdef UseFFT4ASM
 	#include "fft4asm.h"
@@ -16,7 +16,7 @@
 	#include "fftwcompat.h"
 #endif
 
-#include "FourierFloat.h"
+#include "fourierfloat.h"
 
 #include <math.h>
 
@@ -245,7 +245,7 @@ FiniD:
 	}
 	}
 	
-#include "TraiteEnv.cpp"
+#include "traiteenv.cpp"
 
 	ResetCoproState
 	return WPOS;
@@ -392,7 +392,7 @@ FiniD:
 	}
 	}
 	
-#include "TraiteEnv.cpp"
+#include "traiteenv.cpp"
 
 	ResetCoproState
 	return WPOS;
@@ -442,7 +442,7 @@ long __stdcall Expand(complex * TFFT1,unsigned long * Enveloppe,float * TEXC,flo
 	}
 	}
 
-#include "TraiteEnv.cpp"
+#include "traiteenv.cpp"
 
 	return WPOS;
 }
@@ -556,7 +556,7 @@ FiniF:
 
 */
 
-#include "TraiteEnv.cpp"
+#include "traiteenv.cpp"
 
 	return WPOS;
 }
@@ -738,7 +738,7 @@ Ok:
 	}
 #endif
 */
-	#include "TraiteEnv.cpp"
+	#include "traiteenv.cpp"
 	
 	ResetCoproState
 	return WPOS;

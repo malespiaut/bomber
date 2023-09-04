@@ -1,4 +1,4 @@
-#include "General.h"
+#include "general.h"
 #include <ddraw.h>
 #include "ddutil.h"
 

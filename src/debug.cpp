@@ -1,6 +1,6 @@
-#include "General.h"
-#include "Bomber.h"
-#include "Debug.h"
+#include "general.h"
+#include "bomber.h"
+#include "debug.h"
 #include <ddraw.h>
 #include <stdlib.h>
 

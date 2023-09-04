@@ -1,8 +1,8 @@
-#include "General.h"
+#include "general.h"
 #ifdef GCOMP_LZO
 #include <lzo1x.h>
-#include "Debug.h"
-#include "pLZO.h"
+#include "debug.h"
+#include "plzo.h"
 
 BOOL LZOLoadDLL()
 {

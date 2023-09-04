@@ -43,7 +43,7 @@ ucl_free_hook_t ucl_free_hook = ucl_free;
 #  include <malloc.h>
 #endif
 #if defined(__palmos__)
-#  include <System/MemoryMgr.h>
+#  include <system/memorymgr.h>
 #endif
 
 

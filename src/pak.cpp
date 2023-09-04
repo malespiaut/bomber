@@ -1,5 +1,5 @@
-#include "General.h"
-#include "Debug.h"
+#include "general.h"
+#include "debug.h"
 
 #undef PAK_RAR
 #undef PAK_ACE
@@ -21,23 +21,23 @@
 #endif
 
 #ifdef PAK_BZ
-#include "pBZ.h"
+#include "pbz.h"
 #endif
 
 #ifdef PAK_LZO
-#include "pLZO.h"
+#include "plzo.h"
 #endif
 
 #ifdef PAK_UCL
-#include "pUCL.h"
+#include "pucl.h"
 #endif
 
 #ifdef PAK_RAR
-#include "RAR.h"
+#include "rar.h"
 #endif
 
 #ifdef PAK_ACE
-#include "ACE.h"
+#include "ace.h"
 #endif
 
 BOOL PAKLoadDLL()

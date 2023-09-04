@@ -3,7 +3,7 @@
  * August 1995, Phil Karn, KA9Q
  */
 
-#include "WhatFFT.h"
+#include "whatfft.h"
 #ifndef UseFFT4ASM
 #error UseFFT4ASM non défini
 #endif
@@ -275,7 +275,7 @@ ifft16(complex x[16])
 #define astep 8*4
 #define tstep 4*0
 #define fft4lbldone fft4lbldone0
-#include "AsmFFT4GO.cpp"
+#include "asmfft4go.cpp"
 #undef astep
 #undef tstep
 #undef fft4lbldone
@@ -285,7 +285,7 @@ ifft16(complex x[16])
 #define tstep 4*MAXPOINTSfast/16
 #define fft4lbldone fft4lbldone1
 #define AddToX 8
-#include "AsmFFT4GO.cpp"
+#include "asmfft4go.cpp"
 #undef astep
 #undef tstep
 #undef fft4lbldone
@@ -295,7 +295,7 @@ ifft16(complex x[16])
 #define tstep 4*2*MAXPOINTSfast/16
 #define fft4lbldone fft4lbldone2
 #define AddToX 16
-#include "AsmFFT4GO.cpp"
+#include "asmfft4go.cpp"
 #undef astep
 #undef tstep
 #undef fft4lbldone
@@ -305,7 +305,7 @@ ifft16(complex x[16])
 #define tstep 4*3*MAXPOINTSfast/16
 #define fft4lbldone fft4lbldone3
 #define AddToX 24
-#include "AsmFFT4GO.cpp"
+#include "asmfft4go.cpp"
 #undef astep
 #undef tstep
 #undef fft4lbldone
@@ -324,14 +324,14 @@ ifft16(complex x[16])
 #define	COS(x) float ptr TWIDDLESfast[(x)]
 #define	SIN(x) float ptr TWIDDLESfast[(x)]
 
-#include "AsmFFT4Z.cpp"
+#include "asmfft4z.cpp"
 
 #define AddToX 8*4
-#include "AsmFFT4Z.cpp"
+#include "asmfft4z.cpp"
 
-#include "AsmFFT4Z.cpp"
+#include "asmfft4z.cpp"
 
-#include "AsmFFT4Z.cpp"
+#include "asmfft4z.cpp"
 #undef AddToX
 
 return;
@@ -346,7 +346,7 @@ return;
 void __inline
 fft4(complex x[4])
 {
-#include "AsmFFT4Z.cpp"
+#include "asmfft4z.cpp"
 }
 */
 
@@ -360,7 +360,7 @@ fft4(complex x[4])
 void __inline
 iFFT4GbigStep(complex *x,int astep,int tstep)
 {
-#include "AsmFFT4GO.cpp"
+#include "asmfft4go.cpp"
 }
 
 
@@ -374,7 +374,7 @@ iFFT4GbigStep(complex *x,int astep,int tstep)
 void __inline
 iFFT4G(complex *x,int astep,int tstep)
 {
-#include "AsmFFT4GO.cpp"
+#include "asmfft4go.cpp"
 }
 
 #if 0
@@ -409,7 +409,7 @@ fft16(complex x[16])
 #define astep 8*4
 #define tstep 4*0
 #define fft4lbldone fft4lbldone0
-#include "AsmFFT4GO.cpp"
+#include "asmfft4go.cpp"
 #undef astep
 #undef tstep
 #undef fft4lbldone
@@ -419,7 +419,7 @@ fft16(complex x[16])
 #define tstep 4*MAXPOINTSfast/16
 #define fft4lbldone fft4lbldone1
 #define AddToX 8
-#include "AsmFFT4GO.cpp"
+#include "asmfft4go.cpp"
 #undef astep
 #undef tstep
 #undef fft4lbldone
@@ -429,7 +429,7 @@ fft16(complex x[16])
 #define tstep 4*2*MAXPOINTSfast/16
 #define fft4lbldone fft4lbldone2
 #define AddToX 16
-#include "AsmFFT4GO.cpp"
+#include "asmfft4go.cpp"
 #undef astep
 #undef tstep
 #undef fft4lbldone
@@ -439,7 +439,7 @@ fft16(complex x[16])
 #define tstep 4*3*MAXPOINTSfast/16
 #define fft4lbldone fft4lbldone3
 #define AddToX 24
-#include "AsmFFT4GO.cpp"
+#include "asmfft4go.cpp"
 #undef astep
 #undef tstep
 #undef fft4lbldone
@@ -459,14 +459,14 @@ fft16(complex x[16])
 #define	COS(x) float ptr TWIDDLESfast[(x)]
 #define	SIN(x) float ptr TWIDDLESfast[(x)]
 
-#include "AsmFFT4Z.cpp"
+#include "asmfft4z.cpp"
 
 #define AddToX 8*4
-#include "AsmFFT4Z.cpp"
+#include "asmfft4z.cpp"
 
-#include "AsmFFT4Z.cpp"
+#include "asmfft4z.cpp"
 
-#include "AsmFFT4Z.cpp"
+#include "asmfft4z.cpp"
 #undef AddToX
 
 return;

@@ -1,8 +1,8 @@
-#include "General.h"
-#include "Bomber.h"
-#include "IA.h"
-#include "iIA.h"
-#include "Debug.h"
+#include "general.h"
+#include "bomber.h"
+#include "ia.h"
+#include "iia.h"
+#include "debug.h"
 
 #if 0
 #include <seer.h>

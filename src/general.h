@@ -164,7 +164,7 @@ const int BS_DEDICATED=1<<3;
 
 #include "resource.h"
 #include "lstrings.h"
-#include "CSon/CSon.h"
+#include "cson/cson.h"
 
 #define While(c) while((c)&&((GetAsyncKeyState(VK_RETURN)&0x80000000)==0))
 

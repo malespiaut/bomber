@@ -1,5 +1,5 @@
-#include "General.h"
-#include "Maps.h"
+#include "general.h"
+#include "maps.h"
 HANDLE hFindMap=0;
 char Map[MAX_MAPS][BMAX_PATH];
 int MapCount;

@@ -1,5 +1,5 @@
-#include "General.h"
-#include "Configs.h"
+#include "general.h"
+#include "configs.h"
 HANDLE hFindConfig=0;
 char Config[MAX_CONFIGS][BMAX_PATH];
 int ConfigCount;

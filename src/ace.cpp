@@ -1,7 +1,7 @@
-#include "General.h"
+#include "general.h"
 #ifdef GCOMP_ACE
-#include "Debug.h"
-#include "ACE.h"
+#include "debug.h"
+#include "ace.h"
 
 #define ACEERR_MEM      1
 #define ACEERR_FILES    2
@@ -40,7 +40,8 @@
 #define ACECMT_SMALLBUF 1
 #define ACECMT_NONE   255
 
-#pragma pack(1)
+/* winemaker: #pragma pack(1) */
+#include <pshpack1.h>
 struct ACEHeaderData
 {
   char ArcName[260];
@@ -77,7 +78,9 @@ struct ACEOpenArchiveData
 //  int PASCAL (*ProcessDataProc)(unsigned char *Addr,int Size);
 };
 
-#pragma pack()
+/* winemaker: #pragma pack() */
+/* winemaker:warning: Using 4 as the default alignment */
+#include <pshpack4.h>
 /*
 HANDLE __stdcall ACEOpenArchive(struct ACEOpenArchiveData *ArchiveData);
 int __stdcall ACECloseArchive(HANDLE hArcData);

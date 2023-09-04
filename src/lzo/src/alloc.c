@@ -42,7 +42,7 @@ void (__LZO_ENTRY *lzo_free_hook)(lzo_voidp) = lzo_free;
 #  include <malloc.h>
 #endif
 #if defined(__palmos__)
-#  include <System/MemoryMgr.h>
+#  include <system/memorymgr.h>
 #endif
 
 

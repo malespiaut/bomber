@@ -1,8 +1,8 @@
-#include "General.h"
+#include "general.h"
 #ifdef GCOMP_BZ
 #include <bzlib.h>
-#include "Debug.h"
-#include "pBZ.h"
+#include "debug.h"
+#include "pbz.h"
 
 extern "C" void bz_internal_error(int e)
 {

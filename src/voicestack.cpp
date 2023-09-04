@@ -1,10 +1,10 @@
-#include "General.h"
-#include "Bomber.h"
-#include "Multi.h"
-#include "Debug.h"
-#include "Son.h"
-#include "VoiceStack.h"
-#include "iVoiceStack.h"
+#include "general.h"
+#include "bomber.h"
+#include "multi.h"
+#include "debug.h"
+#include "son.h"
+#include "voicestack.h"
+#include "ivoicestack.h"
 #include <dsound.h>
 
 extern LPDIRECTSOUND lpDS;

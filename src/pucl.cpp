@@ -1,8 +1,8 @@
-#include "General.h"
+#include "general.h"
 #ifdef GCOMP_UCL
 #include <ucl/ucl.h>
-#include "Debug.h"
-#include "pUCL.h"
+#include "debug.h"
+#include "pucl.h"
 
 BOOL UCLLoadDLL()
 {

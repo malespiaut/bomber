@@ -2,7 +2,7 @@
 #undef GOA
 //#define GOA
 
-#include "General.h"
+#include "general.h"
 //#include <mapi.h>
 #include <shellapi.h>
 #include <commctrl.h>
@@ -10,24 +10,24 @@
 #include <dinput.h>
 #include <dplobby.h>
 
-#include "Bomber.h"
-#include "iBomber.h"
-#include "Multi.h"
-#include "Son.h"
-#include "Voice.h"
-#include "VoiceStack.h"
-#include "DEBUG.h"
+#include "bomber.h"
+#include "ibomber.h"
+#include "multi.h"
+#include "son.h"
+#include "voice.h"
+#include "voicestack.h"
+#include "debug.h"
 #include "ddutil.h"
-#include "GetDXVer.h"
-#include "Aleat.h"
-#include "Skins.h"
-#include "Maps.h"
-#include "Configs.h"
-#include "LoadFile.h"
-#include "Crypte.h"
-#include "IA.h"
-#include "Font.h"
-#include "WSDPlay.h"
+#include "getdxver.h"
+#include "aleat.h"
+#include "skins.h"
+#include "maps.h"
+#include "configs.h"
+#include "loadfile.h"
+#include "crypte.h"
+#include "ia.h"
+#include "font.h"
+#include "wsdplay.h"
 
 #ifdef GCOMP_LZO
 #include <lzo1x.h>

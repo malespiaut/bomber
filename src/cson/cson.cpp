@@ -7,7 +7,7 @@
 #include <math.h>
 #include <memory.h>
 
-#include "WhatFFT.h"
+#include "whatfft.h"
 
 #ifdef UseFFT4ASM
 #include "fft4asm.h"
@@ -19,8 +19,8 @@
 #include "fftwcompat.h"
 #endif
 
-#include "FourierFloat.h"
-#include "CSon.h"
+#include "fourierfloat.h"
+#include "cson.h"
 
 #define DELETE_ARRAY(lp) {if(lp){delete[]lp;lp=0;}}
 #define DELETE(lp) {if(lp){delete lp;lp=0;}}

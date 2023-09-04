@@ -1,5 +1,5 @@
-#include "General.h"
-#include "Skins.h"
+#include "general.h"
+#include "skins.h"
 HANDLE hFind=0;
 char Skin[MAX_SKINS][BMAX_PATH];
 int SkinCount;

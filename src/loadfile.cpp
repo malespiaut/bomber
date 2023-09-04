@@ -1,7 +1,7 @@
-#include "General.h"
-#include "PAK.h"
-#include "LoadFile.h"
-#include "Debug.h"
+#include "general.h"
+#include "pak.h"
+#include "loadfile.h"
+#include "debug.h"
 
 #undef MODE_PAK
 #define MODE_PAK 0x01

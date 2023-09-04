@@ -1,6 +1,6 @@
 #include <windows.h>
 #include <stdio.h>
-#include "CSon.h"
+#include "cson.h"
 
 
 int WINAPI WinMain( HINSTANCE hInstance, 

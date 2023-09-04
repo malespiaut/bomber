@@ -1,7 +1,7 @@
-#include "General.h"
+#include "general.h"
 #ifdef GCOMP_RAR
-#include "Debug.h"
-#include "RAR.h"
+#include "debug.h"
+#include "rar.h"
 
 #define ERAR_END_ARCHIVE     10
 #define ERAR_NO_MEMORY       11
@@ -25,7 +25,8 @@
 #define RAR_VOL_ASK           0
 #define RAR_VOL_NOTIFY        1
 
-#pragma pack(1)
+/* winemaker: #pragma pack(1) */
+#include <pshpack1.h>
 struct RARHeaderData
 {
   char ArcName[260];
@@ -56,7 +57,9 @@ struct RAROpenArchiveData
   UINT CmtSize;
   UINT CmtState;
 };
-#pragma pack()
+/* winemaker: #pragma pack() */
+/* winemaker:warning: Using 4 as the default alignment */
+#include <pshpack4.h>
 
 typedef HANDLE (PASCAL* LPRAROpenArchive)(struct RAROpenArchiveData *ArchiveData);
 typedef int (PASCAL* LPRARCloseArchive)(HANDLE hArcData);

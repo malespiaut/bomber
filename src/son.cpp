@@ -1,8 +1,8 @@
-#include "General.h"
-#include "Debug.h"
-#include "iSon.h"
-#include "Son.h"
-#include "Bomber.h"
+#include "general.h"
+#include "debug.h"
+#include "ison.h"
+#include "son.h"
+#include "bomber.h"
 //#include <mmreg.h>
 
 extern	HWND	hWndWin;

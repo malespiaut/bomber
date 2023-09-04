@@ -3,7 +3,7 @@
 #include <windows.h>
 #define IDIRECTPLAY2_OR_GREATER
 #include <dplay.h>
-#include "WSDPlay.h"
+#include "wsdplay.h"
 
 const u_short TCP_PORT_NUMBER=2760;
 const u_short UDP_PORT_NUMBER=2761;

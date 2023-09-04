@@ -7,7 +7,9 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "afxres.h"
+/* winemaker: #include "afxres.h" */
+/* winemaker:warning: 'afxres.h' is an MFC specific header. Replacing it with 'winresrc.h' */
+#include "winresrc.h"
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -34,7 +36,7 @@ END
 
 2 TEXTINCLUDE DISCARDABLE 
 BEGIN
-    "#include ""afxres.h""\r\n"
+    "#include ""winresrc.h""\r\n"
     "\0"
 END
 
@@ -149,8 +151,8 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_ICON_MARBLE         ICON    DISCARDABLE     "Marble.ico"
-IDI_ICON_BOMBER         ICON    DISCARDABLE     "Bomber.ico"
+IDI_ICON_MARBLE         ICON    DISCARDABLE     "marble.ico"
+IDI_ICON_BOMBER         ICON    DISCARDABLE     "bomber.ico"
 
 /////////////////////////////////////////////////////////////////////////////
 //
